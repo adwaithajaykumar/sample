@@ -9,7 +9,7 @@ float spring(float springindex,float majordia);
 int main(){
 
     char inpt;
-    printf(" \n PRESS S TO DESIGN SPRING \n PRESS G TO DESGN GEAR \n");
+    printf(" \n PRESS S TO DESIGN SPRING \n PRESS G TO DESGN GEAR \n TYPE 'SH' TO DESIGN SHAFT \n");
     scanf(" %c",&inpt);
 
     if(inpt=='S'){
@@ -29,8 +29,12 @@ int main(){
     }else if(inpt=='G'){
         printf(" LETS DESIGN SOME GEAR \n");
 
+    }else if("inpt=='SH"){
+        printf("lets design some shaft \n");
+    }
 
-    }else{
+
+    else {
         printf("enter a valid data \n");
     }
     return 0;
